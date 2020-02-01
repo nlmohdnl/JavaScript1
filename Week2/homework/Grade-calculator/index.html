@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let grade = 60;
+switch (grade) {
+  case A:
+  grade >= 90 && grade <= 100;
+    break;
+  case B:
+  grade >= 80 && grade <= 89;
+    break;
+  case C:
+  grade >= 70 && grade <= 79;
+    break;
+  case D:
+  grade >= 60 && grade <= 69;
+    break;
+  case E:
+  grade >= 50 && grade <= 59;
+    break;
+  case F:
+  grade >= 0 && grade <= 49;
+    break;
+ 
+}
+document.getElementById("demo").innerHTML = "You got a " + case + grade "%";
+</script>
+
+</body>
+</html>
